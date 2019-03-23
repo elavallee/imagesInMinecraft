@@ -21,4 +21,4 @@ colorNumberings = {'Magenta Wool'   : 1,
                    'Lime Wool'      : 15,
                    'Pink Wool'      : 16}
 ```
-Then you can input an image file in the __main__ section and get a print out of what each row of Minecraft blocks should be to match the image. To save space, the print out condenses, say, 47 contiguous blocks to be 47x-7. Which means you need to place 47 white wool blocks contiguously. The rows go from 1 being the bottom row to a max row height at the top and blocks are placed as they would be read, from left to right.
+Then you can input an image file in the \_\_main\_\_ section and get a print out of what each row of Minecraft blocks should be to match the image. To save space, the print out condenses, say, 47 contiguous blocks to be 47x-7. Which means you need to place 47 white wool blocks contiguously. The rows go from 1 being the bottom row to a max row height at the top and blocks are placed as they would be read, from left to right.
