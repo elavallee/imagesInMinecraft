@@ -53,7 +53,6 @@ def rgbDistance(RGB1, RGB2):
 
 def convertColor(RGB):
     "Convert the color of a pixel to the closest Minecraft color."
-    minDistance = 450
     newColor = min(colorLookup.keys(), key=lambda x: rgbDistance(RGB, x))
     return newColor
     
